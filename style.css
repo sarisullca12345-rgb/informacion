@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0 auto 15px;
+    color: white;
+    box-shadow: 0 10px 15px -3px rgba(236, 72, 153, 0.4);
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #f472b6;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.skills-list li {
+    background: #334155;
+    color: #cbd5e1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-links a {
+    display: block;
+    padding: 12px;
+    background: #334155;
+    color: #f472b6;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    background: #f472b6;
+    color: #0f172a;
+    transform: translateY(-2px);
+}
+
+.action-zone {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+#mensajeSaludo {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4ade80;
+}
+
+.oculto {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.85rem;
+    color: #64748b;
+}
